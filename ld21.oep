@@ -1,0 +1,21 @@
+<project>
+	<name>Escape</name>
+	<settings>
+		<defaultWidth>320</defaultWidth>
+		<defaultHeight>240</defaultHeight>
+		<workingDirectory>src/res</workingDirectory>
+	</settings>
+	<objects>
+		<object name="player" image="sprites/playericon.png" width="8" height="8" limit="1" />
+		<object name="exit" image="sprites/exit.png" width="8" height="8" />
+	</objects>
+	<tilesets>
+		<tileset name="test" image="tilesets/test.png" tileWidth="8" tileHeight="8" />
+	</tilesets>
+	<layers>
+		<grid name="floor" gridSize="8" newLine="-" />
+		<objects name="pieces" gridSize="8"/>
+		<tiles name="floortiles" gridSize="8" />
+		<tiles name="border" gridSize="8" />
+	</layers>
+</project>
